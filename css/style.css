@@ -205,14 +205,31 @@ a {
     margin: 0;
 }
 
+.post-card--extra {
+    display: none;
+}
+
+.post-grid.is-expanded .post-card--extra {
+    display: block;
+}
+
 .view-more {
     display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
     text-decoration: underline;
     color: #000;
     margin-top: 40px;
+}
+
+.view-more:hover {
+    color: var(--color-body);
 }
 
 /* About page */
